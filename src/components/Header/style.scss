@@ -1,0 +1,18 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  .header__logo {
+    height: 70px;
+    object-fit: contain;
+    margin: 10px 400px 10px 45px;
+  }
+  .header__titles {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    p {
+      color: #404d5b;
+    }
+  }
+}

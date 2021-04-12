@@ -1,0 +1,16 @@
+.pageFour {
+  background: url("../../assets/img4.png") no-repeat;
+  display: flex;
+  height: 70vh;
+  .pageFour__right {
+    flex: 0.37;
+    background: #f5f3f1;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pageFour__left {
+    flex: 0.63;
+  }
+}

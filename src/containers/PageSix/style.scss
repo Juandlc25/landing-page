@@ -1,0 +1,21 @@
+.pageSix {
+  background: #f4d9d4;
+  height: 50vh;
+  display: flex;
+  padding: 70px 0;
+}
+.pageSix__left {
+  display: flex;
+  flex: 0.5;
+  img {
+    height: 380px;
+    box-shadow: 15px 15px 15px rgb(167, 165, 165);
+  }
+  align-items: center;
+  justify-content: center;
+}
+.pageSix__right {
+  display: flex;
+  flex: 0.5;
+  align-items: center;
+}

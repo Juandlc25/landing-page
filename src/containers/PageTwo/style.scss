@@ -1,0 +1,13 @@
+.pageTwo {
+  background: url("../../assets/img2.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 80px;
+  .pageTwo__right {
+    flex: 0.5;
+  }
+  .pageTwo__left {
+    flex: 0.5;
+  }
+}

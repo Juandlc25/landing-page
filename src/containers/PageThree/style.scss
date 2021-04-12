@@ -1,0 +1,33 @@
+.pageThree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .pageThree-1 {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+    .program {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 80px;
+      img {
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .pageThree-2 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    .pageThree__left {
+      flex: 0.5;
+    }
+    .pageThree__right {
+      flex: 0.5;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.pageOne__container {
+  display: flex;
+  .pageOne__containerLeft {
+    flex: 0.5;
+  }
+  .pageOne__containerRight {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

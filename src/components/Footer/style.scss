@@ -1,0 +1,28 @@
+.footer {
+  background-color: #404d5b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 40px 0;
+  .icons {
+    display: flex;
+    text-align: center;
+    width: 60%;
+    align-items: center;
+    justify-content: space-between;
+    div {
+      color: #404d5b;
+      background: white;
+      padding: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: -20px;
+    }
+  }
+}
